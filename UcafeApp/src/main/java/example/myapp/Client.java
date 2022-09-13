@@ -34,7 +34,7 @@ public class Client {
 
         ArrayList<Long> idCh = new ArrayList<>();
 
-        String userpass = "nh780:jXb9Z5R7";
+        String userpass = "...";
         String basicAuth = "Basic " + new String(Base64.getEncoder().encode(userpass.getBytes()));
         String payload = "{\"filters\": [{\"field\": \"createDate\", \"operation\": \"range\", \"value\": {\"since\":" + sinceTime + ", \"till\":" + tillTime + "}}]}"; // рабочий
 //       String payload = "{\"filters\": [{\"field\": \"createDate\", \"operation\": \"range\", \"value\": {\"since\": \"1626086634000\", \"till\": \"1626086694000\"}}]}"; // 1 чек
